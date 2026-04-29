@@ -39,8 +39,8 @@ namespace Islamic_Land_Management_System
 
         private void button2_Click(object sender, EventArgs e)
         {
-            string username = textBox1.Text.Trim();
-            string password = textBox2.Text.Trim();
+            string username = namebox.Text.Trim();
+            string password = passwordbox.Text.Trim();
 
             using (SqlConnection con = new SqlConnection("Data Source=localhost\\SQLEXPRESS;Initial Catalog=LoginDB;Integrated Security=True;TrustServerCertificate=True"))
             {
